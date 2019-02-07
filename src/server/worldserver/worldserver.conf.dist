@@ -61,7 +61,7 @@ RealmID = 1
 #        Example:     "/home/youruser/azeroth-server/data"
 #        Default:     "."
 
-DataDir = "."
+DataDir = "../data"
 
 #
 #    LogsDir
@@ -70,7 +70,7 @@ DataDir = "."
 #                     Logs directory must exists, or log file creation will be disabled.
 #        Default:     "" - (Log files will be stored in the current path)
 
-LogsDir = ""
+LogsDir = "../logs"
 
 #
 #    LoginDatabaseInfo
@@ -102,9 +102,9 @@ CharacterDatabaseInfo = "127.0.0.1;3306;acore;acore;acore_characters"
 #                     1 - (WorldDatabase.WorkerThreads)
 #                     1 - (CharacterDatabase.WorkerThreads)
 
-LoginDatabase.WorkerThreads     = 1
-WorldDatabase.WorkerThreads     = 1
-CharacterDatabase.WorkerThreads = 1
+LoginDatabase.WorkerThreads     = 3
+WorldDatabase.WorkerThreads     = 3
+CharacterDatabase.WorkerThreads = 3
 
 #
 #    LoginDatabase.SynchThreads
@@ -115,9 +115,9 @@ CharacterDatabase.WorkerThreads = 1
 #                     1 - (WorldDatabase.WorkerThreads)
 #                     2 - (CharacterDatabase.WorkerThreads)
 
-LoginDatabase.SynchThreads     = 1
-WorldDatabase.SynchThreads     = 1
-CharacterDatabase.SynchThreads = 2
+LoginDatabase.SynchThreads     = 3
+WorldDatabase.SynchThreads     = 3
+CharacterDatabase.SynchThreads = 6
 
 #
 #    MaxPingTime
@@ -377,7 +377,7 @@ AddonChannel = 1
 #        Description: Number of threads to update maps.
 #        Default:     1
 
-MapUpdate.Threads = 1
+MapUpdate.Threads = 3
 
 #
 #    CleanCharacterDB
