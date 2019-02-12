@@ -61,7 +61,7 @@ RealmID = 1
 #        Example:     "/home/youruser/azeroth-server/data"
 #        Default:     "."
 
-DataDir = "../data"
+DataDir = "/home/users/tide/wow/server/data"
 
 #
 #    LogsDir
